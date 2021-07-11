@@ -699,6 +699,22 @@ p {
     font-family: "Open Sans";
 }
 
+.navpage2{
+    padding-right: 200px;
+    padding-bottom: 40px;
+    list-style: none;
+}
+
+.navpage2 a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.navpage2accueil{
+    margin-right: 35px;
+}
+
 .cta-hero {
     margin-top: 22px;
     color: #FFFFFF!important;
