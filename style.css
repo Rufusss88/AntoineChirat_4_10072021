@@ -302,9 +302,10 @@ a:hover {
 }
 
 .navbar-brand img {
-    max-height: 200px;
+    max-height: 300px;
     margin: 0 5px 0 0;
     display: inline;
+
 }
 
 .navbar-brand img[src$=svg] {
@@ -680,6 +681,15 @@ p {
     font-size: 11px;
 }
 
+.citation{
+    font-size: 20px;
+}
+
+.auteur{
+    font-size: 14px;
+    font-style: italic;
+}
+
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -737,6 +747,7 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+    font-size: 20px;
 }
 
 .portfolio-thumb {
@@ -776,6 +787,7 @@ h4 {
 
 .tc-white {
     color: #F3976C!important;
+    font-size: 26px;
 }
 
 .btn-atomic-tangerine {
