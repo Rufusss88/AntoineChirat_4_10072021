@@ -99,9 +99,7 @@ a:hover {
     background-attachment: fixed;
 }
 
-.d-bloc {
-    color: rgba(255, 255, 255, .7);
-}
+
 
 .d-bloc button:hover {
     color: rgba(255, 255, 255, .9);
@@ -710,6 +708,9 @@ p {
     font-weight: 700;
 }
 
+.form-group{
+    margin-bottom: 10px;
+}
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
@@ -769,6 +770,11 @@ h4 {
 
 .intro{
     font-size: 22px;
+}
+
+.text-contact{
+    font-size: 22px;
+    color:#FFFFFF;
 }
 
 .black-background {
