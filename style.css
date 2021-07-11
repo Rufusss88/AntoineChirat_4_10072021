@@ -285,6 +285,7 @@ a:hover {
 
 #bloc-1-hero h1 {
     font-size: 32px;
+    color: #FFFFFF;
 }
 
 .navbar {
@@ -652,7 +653,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: black;
 }
 
 .container {
@@ -678,7 +679,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .citation{
@@ -732,8 +733,8 @@ h3 {
     box-shadow: 0px 0px 0px #000000;
 }
 
-h1 {
-    color: #333333!important;
+#titre{
+    color: #FFFFFF;
 }
 
 h4 {
@@ -747,7 +748,7 @@ h4 {
 
 .white {
     color: black;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .portfolio-thumb {
@@ -764,7 +765,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: #FFFFFF;
     padding: 40px 40px 40px 40px;
 }
 
@@ -786,8 +787,8 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
-    font-size: 26px;
+    color: white;
+    font-size: 30px;
 }
 
 .btn-atomic-tangerine {
