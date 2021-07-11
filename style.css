@@ -747,7 +747,7 @@ h4 {
 }
 
 .white {
-    color: black;
+    color:#000000;
     font-size: 30px;
 }
 
@@ -762,6 +762,13 @@ h4 {
 
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
+}
+.white-background{
+    background-color: #FFFFFF;
+}
+
+.intro{
+    font-size: 22px;
 }
 
 .black-background {
@@ -779,7 +786,7 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-    background-color: #364577;
+    background-color: #FFFFFF;
 }
 
 .bgc-atomic-tangerine {
@@ -787,8 +794,12 @@ h4 {
 }
 
 .tc-white {
-    color: white;
+    color: #FFFFFF;
     font-size: 30px;
+}
+
+.ltc-white{
+    color: #F3976C;
 }
 
 .btn-atomic-tangerine {
@@ -801,13 +812,6 @@ h4 {
     color: #FFFFFF!important;
 }
 
-.ltc-white {
-    color: #FFFFFF!important;
-}
-
-.ltc-white:hover {
-    color: #cccccc!important;
-}
 
 .ltc-atomic-tangerine {
     color: #F3976C!important;
