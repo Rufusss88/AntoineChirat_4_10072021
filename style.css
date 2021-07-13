@@ -42,6 +42,7 @@ a:hover {
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
+    text-align: center;
 }
 
 .bloc-lg {
@@ -506,8 +507,25 @@ button {
 }
 
 .form-control {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+}
+
+#message{
+    margin-top: 15px;
+    font-family: hevetica;
+    font-size: 15px;
 }
 
 .scrollToTop {
@@ -654,8 +672,10 @@ a {
     color: black;
 }
 
-.container {
-    max-width: 1000px;
+
+.réalisations{
+    font-weight: 600;
+    
 }
 
 .hero-bloc-text {
@@ -688,7 +708,6 @@ p {
 
 .auteur{
     font-size: 14px;
-    font-style: italic;
 }
 
 .tight-width-whitespace {
@@ -727,7 +746,9 @@ p {
 }
 
 .form-group{
-    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
 }
 .social {
     max-width: 400px;
@@ -766,8 +787,9 @@ h4 {
 }
 
 .white {
-    color:#000000;
-    font-size: 30px;
+    color: black;
+    font-weight: 500;
+    margin-bottom: 15px;
 }
 
 .portfolio-thumb {
@@ -782,17 +804,17 @@ h4 {
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
-.white-background{
-    background-color: #FFFFFF;
-}
 
 .intro{
-    font-size: 22px;
+    font-weight: bold;
+    font-family: "helvetica";
 }
 
 .text-contact{
-    font-size: 22px;
-    color:#FFFFFF;
+    font-size: 23px;
+    color: #FFD700;
+    font-weight: 700;
+    text-align: center;
 }
 
 .black-background {
@@ -806,6 +828,7 @@ h4 {
 }
 
 .bgc-white {
+    display: flex;
     background-color: #FFFFFF;
 }
 
@@ -814,7 +837,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: rgb(148,54,11);
 }
 
 .tc-white {
@@ -827,7 +850,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: rgb(148,54,11);
     color: #FFFFFF!important;
 }
 
@@ -848,6 +871,9 @@ h4 {
 .icon-dark-slate-blue {
     color: #364577!important;
     border-color: #364577!important;
+}
+.label{
+    margin-bottom: 5px;
 }
 
 .bg-dots-bg {
