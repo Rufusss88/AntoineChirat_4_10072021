@@ -7797,7 +7797,8 @@ button.close {
 .center-block {
     display: block;
     margin-right: auto;
-    margin-left: auto
+    margin-left: auto;
+    color:white;
 }
 
 .pull-right {

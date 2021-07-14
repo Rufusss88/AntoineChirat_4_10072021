@@ -787,9 +787,17 @@ h4 {
 }
 
 .white {
-    color: black;
+    color: white;
     font-weight: 500;
     margin-bottom: 15px;
+}
+
+#footerid{
+    color: white;
+}
+
+#fondnoir{
+    color: black;
 }
 
 .portfolio-thumb {
@@ -812,7 +820,7 @@ h4 {
 
 .text-contact{
     font-size: 23px;
-    color: #FFD700;
+    color: white;
     font-weight: 700;
     text-align: center;
 }
@@ -833,7 +841,7 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-    background-color: #FFFFFF;
+    background-color: black;
 }
 
 .bgc-atomic-tangerine {
